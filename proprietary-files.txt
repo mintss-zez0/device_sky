@@ -1,3 +1,5 @@
+# Device proprietary files - from sky MIUI V14.0.7.0.TMWINXM package, unless pinned
+
 # ACDB
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
@@ -1507,6 +1509,11 @@ system_ext/lib64/vendor.qti.hardware.perf@2.3.so|e2226cc181265426a779b8f030bf9c9
 system_ext/lib64/vendor.qti.qspmhal-V1-ndk.so|b59800aaae7bcae40ee0911516397568d205bc5f
 system_ext/lib64/vendor.qti.qspmhal@1.0.so|d6a85a1a67b26ef6147f14e1a1a8100d21eeae18
 
+# Perf (vendor)
+vendor/lib64/libstandbyfeature.so
+vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml
+vendor/lib64/vendor.qti.hardware.power.powermodule@1.0.so
+
 # Perf (vendor) - from Shennong
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|6a9ecc12c78701c3bced39b0b8baa8a24bc6b831
 vendor/bin/hw/vendor.qti.hardware.perf2-hal-service|916952b8fc84d3d75ec99888e47f3e8a42e6eead
@@ -1523,7 +1530,6 @@ vendor/etc/init/vendor.qti.psiclient@1.0-service.rc|3c8e69345951b17aed25be91d5ca
 vendor/etc/init/vendor.qti.qspmhal-service.rc|b9fd698739169d1485f437c437d2b83548670f5a
 vendor/etc/seccomp_policy/qspm.policy|87f5c78589f9efabee61683942a5b63ffeb5f22e
 vendor/etc/vintf/manifest/vendor.qti.hardware.perf2.xml|e2839531d48d54f2bd0c61a8a141c794fecf5fa2
-vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml|8ca370c8ed8b283f961bb3b82b3e3c49f25f1206
 vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml|40b6abd9b4be99dc5722eb60d71ee36764bf4ef3
 vendor/etc/vintf/manifest/vendor.qti.memory.pasrmanager-service.xml|09a830b050d7f957d19ed3f022018777f0bcd61c
 vendor/etc/vintf/manifest/vendor.qti.qspmhal-service.xml|b070cf5f9bbebe6d00ec7d845d7d60922656ac45
